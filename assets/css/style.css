@@ -1,0 +1,17 @@
+
+.entirePageBox{
+    max-width: 450px;
+    margin-left: 10px;
+}
+
+.headerBox{
+}
+
+#instructions{
+    border: 5px, solid green;
+}
+
+img {
+    width: 60px;
+    height: 50px;
+}
