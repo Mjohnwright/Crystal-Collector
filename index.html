@@ -22,54 +22,59 @@
             <div class="headerBox" id="header">
                 <h1>Crystals Collector</h1>
             </div>
-                <br>
-            <div class="instructionPanel" id = "instructions"></div>
+            <br>
+            <div class="instructionPanel" id="instructions"></div>
             <p> You will be given a random number at the start of the game.</p>
-                <br>
+            <br>
             <p> There are four crystals below. By clicking on a crsystal you will add a specific amount of
                 points to your total score.</p>
-                <br>
-            <p>You win the game by matching your total score to a random number, you lose the game
-                if you total score goes above the random number.</p>
-                <br>
+            <br>
+            <p>You win the game by matching your total score to a random number, you lose the game if you
+                total score goes above the random number.</p>
+            <br>
             <p> The value of each crystal is hidden from you until you click on it.</p>
-                <br>
+            <br>
             <p> Each time when the game starts, the game will change the value of each crystal.</p>
-                <br>
+            <br>
             <!-- This is the Panel for the Comptuter guess and Win\Loss scoreboard -->
             <div class="scorePanelBoxPanel">
 
                 <!-- Computer generated number box-->
                 <div class="randomComputerNumberbox">
                     <!-- 19 - 120 -->
-                    <p id="scorePanelBox"></p> <!-- This is where the random Computer number is -->
+                    <p id="scorePanelBox"></p>
+                    <!-- This is where the random Computer number is -->
                 </div>
                 <br>
                 <!-- Win/Loss box-->
                 <div class="winLossbox">
-                    <h2>Wins:</h2>
-                    <h2>Losses:</h2>
+                    <h2 id="wins"></h2>
+                    <h2 id="losses"></h2>
                 </div>
             </div>
-                <br>
+            <br>
 
             <div class="crystal">
                 <!-- 1 AND 12 -->
-                <button id = "button-1" class = "btn-crystal" id = "valueOne">
-                        <img src="Assets/images/red.png" alt = "red"></button>
-                
+                <button id="button-1" class="btn-crystal" id="valueOne">
+                    <img src="Assets/images/red.png" alt="red">
+                </button>
 
-                <button id = "button-2" class = "btn-crystal" id = "valueTwo">
-                        <img src="Assets/images/yellow.png" alt = "yellow"></button>
-                
 
-                <button id = "button-3" class = "btn-crystal" id = "valueThree">
-                        <img src="Assets/images/blue.png" alt = "blue"></button>
-                
+                <button id="button-2" class="btn-crystal" id="valueTwo">
+                    <img src="Assets/images/yellow.png" alt="yellow">
+                </button>
 
-                <button id = "button-4" class = "btn-crystal" id = "valueFour">
-                        <img src="Assets/images/green.png" alt = "green"></button>
-                
+
+                <button id="button-3" class="btn-crystal" id="valueThree">
+                    <img src="Assets/images/blue.png" alt="blue">
+                </button>
+
+
+                <button id="button-4" class="btn-crystal" id="valueFour">
+                    <img src="Assets/images/green.png" alt="green">
+                </button>
+
             </div>
 
             <br>
@@ -78,7 +83,7 @@
             </div>
 
             <div class="scoreTextBox">
-                <h2 id = "scoreBox"></h2>
+                <h2 id="scoreBox"></h2>
             </div>
 
         </div>
