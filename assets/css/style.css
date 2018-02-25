@@ -1,21 +1,117 @@
 
 body {
-    background-image: url("assets/css/images/background.png");
+    background-image: src("assets/images/background.png"); 
+    margin-top: 10px;
 }
 
 .entirePageBox{
-    max-width: 450px;
-    margin-left: 10px;
+    /* max-width: 450px; */
 }
 
 .headerBox{
+    margin-left: 10px;
+
+    background-color: orange;
+    color: white;
+    max-width: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-style: bold;
+
 }
 
-#instructions{
-    border: 5px, solid green;
+h1{
+    font-size:30px;
+    margin-left: 10px;
+}
+
+.instructionPanel{
+    max-width: 325px;
+    margin-left: 10px;
+    background-color: bisque;
+    color: green;
+    height: 200px;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+
+
+
+/*  MIDDLE PANEL    */
+.scorePanelBoxPanel{
+    margin-left: 10px;
+
+    /* max-width: 200px; */
+}
+
+.randomComputerNumberbox{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: green;
+    color: white;
+    width: 130px;
+    height: 40px;
+    padding: 40px;
+    float: left;
+}
+
+.winLossbox{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 120px;
+    background-color: aquamarine;
+    float: left;
+    /* padding: 25px; */
+    font-size: 10px;
+
+
+   
+}
+
+.crystal {
+
+    margin-left: 10px;
+    clear: left;
+
+}
+
+
+.scoreTextBox{
+    max-width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(26, 134, 125);
+    color: white;
+}
+
+#box{
+    height: 30px;
+}
+
+
+
+.scoreBox{
+    margin-top: 40px;
+}
+
+p, h2{
+    margin-left: 10px;
+}
+
+p{
+    font-size: 12px;
+
+}
+
+h2 {
+    font-size: 30px;
 }
 
 img {
+    
     width: 60px;
     height: 50px;
 }

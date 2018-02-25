@@ -33,6 +33,8 @@ function initializeGame() {
     console.log('green = ' + value4);
 
     //function to insure each crystal has a unique number
+
+    //CHANGE THIS TO SWITCH
     function equals() {
     } if (value1 === value2) {
         initializeGame();
@@ -47,7 +49,6 @@ function initializeGame() {
     } else if (value3 === value4) {
         initializeGame();
     };
-
     equals();
 
     // Returns a random integer between 19 and 120 for the ComputerNumber and places it in DOM
@@ -66,7 +67,7 @@ function initializeGame() {
 --------------------------------*/
 $("#button-1").on("click", function () {
     userTotal = (userTotal + value1);
-    $('#scoreBox').text(userTotal);
+    $('#scoreBox').text(userTotal);//try this on this line
     // WINNING
     if (userTotal === randomComputerNumber) {
         wins++;
