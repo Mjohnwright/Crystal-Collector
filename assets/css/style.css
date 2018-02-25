@@ -4,16 +4,12 @@ body {
     margin-top: 10px;
 }
 
-.entirePageBox{
-    /* max-width: 450px; */
-}
 
 .headerBox{
     margin-left: 10px;
-
     background-color: orange;
     color: white;
-    max-width: 250px;
+    max-width: 270px;
     padding-top: 20px;
     padding-bottom: 20px;
     font-style: bold;
@@ -22,7 +18,8 @@ body {
 
 h1{
     font-size:30px;
-    margin-left: 10px;
+    font-weight: bold;
+    margin-left: 15px;
 }
 
 .instructionPanel{
@@ -51,8 +48,8 @@ h1{
     background-color: green;
     color: white;
     width: 130px;
-    height: 40px;
-    padding: 40px;
+    height: 100px;
+    padding: 0px;
     float: left;
 }
 
@@ -61,10 +58,9 @@ h1{
     margin-left: 10px;
     margin-bottom: 10px;
     width: 80px;
-    height: 120px;
+    height: 100px;
     background-color: aquamarine;
     float: left;
-    /* padding: 25px; */
     font-size: 10px;
 
 
@@ -91,7 +87,11 @@ h1{
     height: 30px;
 }
 
+#wins{
+    padding-top: 30px;
+    padding-bottom: 15px;
 
+}
 
 .scoreBox{
     margin-top: 40px;
@@ -103,6 +103,7 @@ p, h2{
 
 p{
     font-size: 12px;
+    font-weight: bold
 
 }
 

@@ -1,4 +1,4 @@
-// $(document).ready(function () {
+$(document).ready(function () {
 /*-------------------------------
         GLOBAL VARIABLES
 --------------------------------*/
@@ -168,3 +168,4 @@ $("#button-4").on("click", function () {
 
 
 initializeGame();
+});
