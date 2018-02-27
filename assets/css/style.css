@@ -22,6 +22,10 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     font-style: bold;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(133, 79, 43, 0.527)
+
 
 }
 
@@ -39,6 +43,10 @@ h1{
     height: 200px;
     padding-top: 15px;
     padding-right: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(133, 79, 43, 0.527)
+
 }
 
 
@@ -60,6 +68,10 @@ h1{
     height: 100px;
     padding: 0px;
     float: left;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(133, 79, 43, 0.527)
+
 }
 
 .winLossbox{
@@ -71,6 +83,10 @@ h1{
     background-color: aquamarine;
     float: left;
     font-size: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(133, 79, 43, 0.527)
+
 
 
    
@@ -90,6 +106,10 @@ h1{
     margin-left: 10px;
     background-color: rgb(26, 134, 125);
     color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(133, 79, 43, 0.527)
+
 }
 
 #box{
@@ -104,6 +124,10 @@ h1{
 
 .scoreBox{
     margin-top: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(133, 79, 43, 0.527)
+
 }
 
 p, h2{
