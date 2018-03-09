@@ -1,4 +1,4 @@
-$(document).ready(function () {
+
     /*-------------------------------
             GLOBAL VARIABLES
     --------------------------------*/
@@ -65,9 +65,9 @@ $(document).ready(function () {
     /*-------------------------------
             RED CRYSTAL
     --------------------------------*/
-    $("#button-1").on("click", function () {
+    $( "#button-1" ).click(function() {
         userTotal = (userTotal + value1);
-        $('#scoreBox').text(userTotal);//try this on this line
+        $("#scoreBox").text(userTotal);//try this on this line
         // WINNING
         if (userTotal === randomComputerNumber) {
             wins++;
@@ -176,4 +176,3 @@ $(document).ready(function () {
 
 
     initializeGame();
-});
